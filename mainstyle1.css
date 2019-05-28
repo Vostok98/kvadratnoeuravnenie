@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: 'BravoRG';
+    src: local('BravoRG'), url('bravorg.woff2') format('woff2'), url('bravorg.woff') format('woff'), url('bravorg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('fonts/ProximaNova/ProximaNova-Bold.eot');
+	src: url('fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
+	url('fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+html{
+	background-image: url('img/katalog.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+}
+a{
+    font-family: 'BravoRG';
+    font-size: 1.5rem;
+	z-index: 2;
+}
+nav {
+	width: 100%;
+	margin: 0 auto;
+	opacity: .5;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+nav:before {
+	content:'';
+	display:block;
+	height:50px;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	left:0;
+	top: 0;
+	z-index: -1;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+}
+
+ul li{
+	float: left;
+}
+ul li a{
+	color: #fff;
+	display: block;
+	height: 50px;
+	padding: 0 30px;
+	text-decoration: none;
+	line-height: 50px;
+}
+ul li a:hover{
+	background: #d34d43;
+}
+.mw-100{
+	margin: 0;
+	padding: 0;
+	margin-bottom: -4px;
+	
+	max-width: 100%;
+	z-index: -2;
+	border: none;
+}
+.whiteblock{
+	height:2700px;
+	width: 70%;
+	border: 1px;
+	margin-top: 17px;
+	background-color: white;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}

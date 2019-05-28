@@ -1,0 +1,59 @@
+#otvet {
+	display: none;
+}
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('fonts/ProximaNova/ProximaNova-Bold.eot');
+	src: url('fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
+	url('fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+html{
+	background-image: url('img/NEWMAKET.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+}
+body {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 12%;
+	background: #ccff52;
+	text-align: center;
+	font-family: 'Proxima Nova Bold';
+	font-size: 20px;
+	opacity: 0.98;
+}
+p {
+	font-size: 20px;
+}
+pre {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-top: 20px;
+	padding: 25px;
+	background: #f3ff2e;
+	border: 1px solid black;
+	font-family: 'Proxima Nova Bold';
+	font-size: 25px;
+}
+input[type='button'] {
+	background: #009f00;
+	border: none;
+	padding: 10px 35px;
+	font-size: 20px;
+	color: #f3ff2e;
+	border-radius: 7px;
+	font-family: 'Proxima Nova Bold';
+}
+input[type='button']:hover {
+	opacity: 0.55;
+}
+input[type='number'] {
+	width: 40px;
+	height: 20px;
+	text-align: right;
+}
